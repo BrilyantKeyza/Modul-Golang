@@ -18,7 +18,7 @@ Ok, agar lebih jelas mari kita mulai praktek.
 
 ## A.63.1. Skenario Praktek
 
-Kita akan modifikasi file program `1-dummy-file-generator.go` yang pada chapter sebelumnya sudah dibuat (A.62. Concurrency Pattern: Pipeline(https://dasarpemrogramangolang.novalagung.com/A-concurrency-pipe). Kita rubah mekanisme generate dummy files-nya dari sekuensial ke konkuren.
+Kita akan modifikasi file program `1-dummy-file-generator.go` yang pada chapter sebelumnya sudah dibuat (A.62. Concurrency Pattern: Pipeline). Kita rubah mekanisme generate dummy files-nya dari sekuensial ke konkuren.
 
 ## A.63.2. Program Generate Dummy File  _Sequentially_
 
