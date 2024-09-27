@@ -26,7 +26,6 @@ mkdir belajar-vendor
 cd belajar-vendor
 go mod init belajar-vendor
 go get -u github.com/novalagung/gubrak/v2
-
 ```
 
 Isi  `main.go`  dengan blok kode berikut, untuk menampilkan angka random dengan range 10-20.

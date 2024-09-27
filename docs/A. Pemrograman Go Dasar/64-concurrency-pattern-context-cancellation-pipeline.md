@@ -172,6 +172,8 @@ func createFiles(chanIn <-chan FileInfo, numberOfWorkers int) <-chan FileInfo {
 }
 ```
 Hasil eksekusi program:
+
+
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUeFmBNsEf7m8aaDYPWNgZDpQHrge4yGuzVusHc5onYkm5ukTLmp2ORv3_azj1wKWB75MbVMaXIPIP_y_eCDYytMUaeRgZCkyIdUazeMzpbg7DQdjoP_TGRy5S1qLxB8UnDyeOSSR6faKFDf0KMG62uGVM?key=d3s-vJLBsYtwvRvGfZhdnw)**
 
 ## A.64.3. Program Generate Dummy File  _Concurrently_  dan Mekanisme  _Cancellation_

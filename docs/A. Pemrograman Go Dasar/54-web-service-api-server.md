@@ -55,7 +55,6 @@ func users(w http.ResponseWriter, r *http.Request) {
 
     http.Error(w, "", http.StatusBadRequest)
 }
-
 ```
 
 Jika request adalah GET (mengambil data), maka data yang di-encode ke JSON dijadikan sebagai response.
@@ -113,7 +112,6 @@ func main() {
     fmt.Println("starting web server at http://localhost:8080/")
     http.ListenAndServe(":8080", nil)
 }
-
 ```
 
 Jalankan program, sekarang web server sudah live dan bisa dikonsumsi datanya.

@@ -134,7 +134,6 @@ func generateFiles() {
 
     log.Printf("%d of total files created", totalFile)
 }
-
 ```
 
 O iya untuk logging pembuatan file saya tampilkan setiap 100 file di-generate, agar tidak mengganggu performa, karena printing output ke  `stdout`  atau CMD/terminal itu cukup  _costly_.
@@ -298,7 +297,6 @@ func main() {
 
     // ...
 }
-
 ```
 
 Fungsi  `readFiles()`  isinya adalah pembacaan semua file. Fungsi ini mengembalikan variabel  `channel`  bernama  `chanFileContent`. Lanjut siapkan fungsi tersebut.

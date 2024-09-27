@@ -74,7 +74,6 @@ func main() {
     wg.Wait()
     fmt.Println(meter.Value())
 }
-
 ```
 
 Pada kode di atas, disiapkan sebuah instance  `sync.WaitGroup`  bernama  `wg`, dan variabel object  `meter`  bertipe  `counter`  (nilai property  `val`  default-nya adalah  **0**).

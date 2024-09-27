@@ -110,7 +110,6 @@ func main() {
     fmt.Println("starting web server at http://localhost:8080/")
     http.ListenAndServe(":8080", nil)
 }
-
 ```
 
 Jalankan, lalu buka  [http://localhost:8080](http://localhost:8080/), maka data  `Nama`  dan  `Message`  akan muncul di view.

@@ -31,7 +31,6 @@ type student struct {
     Name  string
     Grade int
 }
-
 ```
 
 Setelah itu buat fungsi  `fetchUsers()`. Fungsi ini bertugas melakukan request ke  [http://localhost:8080/users](http://localhost:8080/users), menerima response dari request tersebut, lalu menampilkannya.
@@ -92,7 +91,6 @@ func main() {
         fmt.Printf("ID: %s\t Name: %s\t Grade: %d\n", each.ID, each.Name, each.Grade)
     }
 }
-
 ```
 
 Ok, terakhir sebelum memulai testing, pastikan telah run aplikasi pada chapter sebelumya (A.54. Web Service API Server). Setelah itu start prompt cmd/terminal baru dan jalankan program yang telah dibuat di chapter ini.
@@ -106,7 +104,6 @@ Untuk menyisipkan data pada sebuah request, ada beberapa hal yang perlu ditambah
 ```
 import "bytes"
 import "net/url"
-
 ```
 
 Kemudian buat fungsi baru, isinya request ke  [http://localhost:8080/user](http://localhost:8080/user)  dengan data yang disisipkan adalah  `ID`.

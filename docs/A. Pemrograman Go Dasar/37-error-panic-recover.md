@@ -96,7 +96,6 @@ func main() {
         fmt.Println(err.Error())
     }
 }
-
 ```
 
 Fungsi  `validate()`  mengembalikan 2 data. Data pertama adalah nilai  `bool`  yang menandakan inputan apakah valid atau tidak. Data ke-2 adalah pesan error-nya (jika inputan tidak valid).

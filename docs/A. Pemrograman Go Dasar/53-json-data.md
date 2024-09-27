@@ -48,7 +48,6 @@ func main() {
     fmt.Println("user :", data.FullName)
     fmt.Println("age  :", data.Age)
 }
-
 ```
 
 Fungsi unmarshal hanya menerima data json dalam bentuk  `[]byte`, maka dari itu data json string perlu di-casting terlebih dahulu ke tipe  `[]byte`, sebelum akhirnya digunakan pada pemanggilan fungsi  `json.Unmarshal()`.
@@ -75,7 +74,6 @@ json.Unmarshal(jsonData, &data1)
 
 fmt.Println("user :", data1["Name"])
 fmt.Println("age  :", data1["Age"])
-
 ```
 
 Variabel bertipe  `interface{}`  juga bisa digunakan untuk menampung hasil decode. Dengan catatan pada pengaksesan nilai property, harus dilakukan casting terlebih dahulu ke  `map[string]interface{}`.

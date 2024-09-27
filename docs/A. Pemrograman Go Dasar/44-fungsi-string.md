@@ -109,7 +109,6 @@ Digunakan untuk mengulang string (parameter pertama) sebanyak data yang ditentuk
 ```
 var str = strings.Repeat("na", 4)
 fmt.Println(str) // "nananana"
-
 ```
 
 Pada contoh di atas, string  `"na"`  diulang sebanyak 4 kali. Hasilnya adalah:  `"nananana"`
@@ -124,7 +123,6 @@ fmt.Println(string1) // output: ["the", "dark", "knight"]
 
 var string2 = strings.Split("batman", "")
 fmt.Println(string2) // output: ["b", "a", "t", "m", "a", "n"]
-
 ```
 
 String  `"the dark knight"`  dipisah oleh karakter spasi  `" "`, hasilnya kemudian ditampung oleh  `string1`.

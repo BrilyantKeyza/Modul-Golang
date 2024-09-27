@@ -326,7 +326,6 @@ func main() {
     fmt.Printf("Name  : %s\n", library.Student.Name)
     fmt.Printf("Grade : %d\n", library.Student.Grade)
 }
-
 ```
 
 Package  `library`  di-import, dan variabel  `Student`  dikonsumsi pada fungsi  `main()`. Sewaktu package di-import, fungsi  `init()`  yang berada di dalamnya langsung dieksekusi.

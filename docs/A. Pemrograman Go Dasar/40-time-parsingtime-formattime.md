@@ -150,7 +150,6 @@ if err != nil {
 }
 
 fmt.Println(date)
-
 ```
 
 Kode di atas menghasilkan error karena format tidak sesuai dengan skema data yang akan diparsing. Layout format yang seharusnya digunakan adalah  `06 Jan 15 03:04 MST`.

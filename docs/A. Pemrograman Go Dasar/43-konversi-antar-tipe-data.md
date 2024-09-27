@@ -75,7 +75,6 @@ var num = int64(24)
 var str = strconv.FormatInt(num, 8)
 
 fmt.Println(str) // 30
-
 ```
 
 #### ◉ Fungsi  `strconv.ParseFloat()`
@@ -89,7 +88,6 @@ var num, err = strconv.ParseFloat(str, 32)
 if err == nil {
     fmt.Println(num) // 24.1200008392334
 }
-
 ```
 
 Pada contoh di atas, string  `"24.12"`  dikonversi ke float dengan lebar tipe data  `float32`. Hasil konversi  `strconv.ParseFloat`  adalah sesuai dengan standar  [IEEE Standard for Floating-Point Arithmetic](https://en.wikipedia.org/wiki/IEEE_floating_point).
@@ -103,7 +101,6 @@ var num = float64(24.12)
 var str = strconv.FormatFloat(num, 'f', 6, 64)
 
 fmt.Println(str) // 24.120000
-
 ```
 
 Pada kode di atas, Data  `24.12`  yang bertipe  `float64`  dikonversi ke string dengan format eksponen  `f`  atau tanpa eksponen, lebar digit desimal 6 digit, dan lebar tipe data  `float64`.

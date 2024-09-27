@@ -70,7 +70,6 @@ type student struct {
     age   int
     grade int
 }
-
 ```
 
 Driver database yang digunakan perlu di-import menggunakan tanda  `_`, karena meskipun dibutuhkan oleh package  `database/sql`, kita tidak langsung berinteraksi dengan driver tersebut.
@@ -97,7 +96,6 @@ user@tcp(host:port)/dbname
 ```
 
 Di bawah ini adalah penjelasan mengenai connection string yang digunakan pada fungsi  `connect()`.
-
 ```
 root@tcp(127.0.0.1:3306)/db_belajar_golang
 // user     => root

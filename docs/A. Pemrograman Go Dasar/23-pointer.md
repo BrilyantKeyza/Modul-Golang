@@ -90,7 +90,6 @@ func main() {
 func change(original *int, value int) {
     *original = value
 }
-
 ```
 
 Fungsi  `change()`  memiliki 2 parameter, yaitu  `original`  yang tipenya adalah pointer  `int`, dan  `value`  yang bertipe  `int`. Di dalam fungsi tersebut nilai asli parameter pointer  `original`  diubah.

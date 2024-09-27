@@ -173,7 +173,6 @@ func main() {
     fmt.Println("keliling  :", bangunRuang.keliling())
     fmt.Println("volume    :", bangunRuang.volume())
 }
-
 ```
 
 Bisa dilihat di kode di atas, lewat interface  `hitung`, method  `luas()`,  `keliling()`, dan  `volume()`  bisa di akses.

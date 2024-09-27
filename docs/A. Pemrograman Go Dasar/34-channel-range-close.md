@@ -46,7 +46,6 @@ func main() {
     go sendMessage(messages)
     printMessage(messages)
 }
-
 ```
 
 Setelah 20 data yang dikirim sukses diterima, channel  `ch`  di-non-aktifkan dengan adanya statement  `close(ch)`. Statement tersebut menghentikan perulangan channel dalam  `printMessage()`.

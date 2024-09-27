@@ -74,7 +74,6 @@ var regex, _ = regexp.Compile(`[a-z]+`)
 var str = regex.FindString(text)
 fmt.Println(str)
 // "banana"
-
 ```
 
 Fungsi ini hanya mengembalikan 1 buah hasil saja. Jika ada banyak substring yang sesuai dengan ekspresi regexp, akan dikembalikan yang pertama saja.
@@ -163,7 +162,6 @@ var regex, _ = regexp.Compile(`[a-b]+`) // split dengan separator adalah karakte
 var str = regex.Split(text, -1)
 fmt.Printf("%#v \n", str)
 // []string{"", "n", "n", " ", "urger soup"}
-
 ```
 
 Pada contoh di atas, ekspresi regexp  `[a-b]+`  digunakan sebagai kriteria split. Maka karakter  `a`  dan/atau  `b`  akan menjadi separator.

@@ -168,7 +168,6 @@ func watcher(timeout int, ch <-chan bool) {
     fmt.Println("\ntime out! no answer more than", timeout, "seconds")
     os.Exit(0)
 }
-
 ```
 
 Terakhir, buat implementasi di fungsi  `main()`.

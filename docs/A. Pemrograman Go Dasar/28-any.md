@@ -46,7 +46,6 @@ data = map[string]interface{}{
     "grade":     2,
     "breakfast": []string{"apple", "manggo", "banana"},
 }
-
 ```
 
 Pada kode di atas, disiapkan variabel  `data`  dengan tipe  `map[string]interface{}`, yaitu sebuah koleksi dengan key bertipe  `string`  dan nilai bertipe interface kosong  `interface{}`.
@@ -114,7 +113,6 @@ type person struct {
 var secret interface{} = &person{name: "wick", age: 27}
 var name = secret.(*person).name
 fmt.Println(name)
-
 ```
 
 Variabel  `secret`  dideklarasikan bertipe  `interface{}`  menampung referensi objek cetakan struct  `person`. Cara casting dari  `interface{}`  ke struct pointer adalah dengan menuliskan nama struct-nya dan ditambahkan tanda asterisk (`*`) di awal, contohnya seperti  `secret.(*person)`. Setelah itu barulah nilai asli bisa diakses.

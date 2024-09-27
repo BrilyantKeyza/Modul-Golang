@@ -80,7 +80,6 @@ func writeFile() {
 func main() {
     writeFile()
 }
-
 ```
 
 Pada program di atas, file dibuka dengan level akses  **read**  dan  **write**  dengan kode permission  **0664**. Setelah itu, beberapa string diisikan ke dalam file tersebut menggunakan  `WriteString()`. Di akhir, semua perubahan terhadap file menjadi tersimpan dengan adanya pemanggilan method  `Sync()`.

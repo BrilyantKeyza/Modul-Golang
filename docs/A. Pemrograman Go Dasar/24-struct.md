@@ -322,7 +322,6 @@ type student struct {
     grade   int
     hobbies []string
 }
-
 ```
 
 Teknik ini biasa digunakan ketika decoding data  **JSON**  yang struktur datanya cukup kompleks dengan proses decode hanya sekali.

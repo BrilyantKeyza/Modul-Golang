@@ -53,7 +53,6 @@ Pada kode di atas, variabel  `messages`  dideklarasikan bertipe channel  `string
 
 ```
 var messages = make(chan string)
-
 ```
 
 Selain itu disiapkan juga closure  `sayHelloTo`  yang tugasnya membuat sebuah pesan string yang kemudian dikirim via channel. Pesan string tersebut dikirim lewat channel  `messages`. Tanda  `<-`  jika dituliskan di sebelah kiri nama variabel, berarti sedang berlangsung proses pengiriman data dari variabel yang berada di kanan lewat channel yang berada di kiri (pada konteks ini, variabel  `data`  dikirim lewat channel  `messages`).
@@ -125,7 +124,6 @@ func main() {
         printMessage(messages)
     }
 }
-
 ```
 
 Output program di atas sama dengan program sebelumnya.
@@ -148,7 +146,6 @@ Data slice yang baru di inisialisasi bisa langsung di-iterasi, caranya mudah den
 for _, each := range []string{"wick", "hunt", "bourne"} {
     // ...
 }
-
 ```
 
 #### ◉ Eksekusi Goroutine Pada IIFE
